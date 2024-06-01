@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    
     "scripts": {
         "start": "set NODE_ENV=PROD&& node src/index.js",
         "dev": "set NODE_ENV=DEV&& nodemon src/index.js"

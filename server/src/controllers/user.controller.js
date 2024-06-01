@@ -71,7 +71,7 @@ exports.login = asyncHandler(async (req, res) => {
     // Check if the provided password matches the stored password
     const isMatch = await user.isPasswordCorrect(password);
     if (!isMatch) {
-        return sendResponse(res, 400, null, "Invalid email or password");
+        return sendResponse(res, 400, null, "Invalid credentials");
     }
 
     // Generate access and refresh tokens for the user
