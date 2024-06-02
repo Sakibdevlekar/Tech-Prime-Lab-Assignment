@@ -27,7 +27,7 @@ const Login = () => {
         <img
           src={headerImage}
           alt="headerImage"
-          className="w-full h-full object-cover"
+          className="w-full  object-cover"
         />
       </div>
       <div className="absolute inset-x-0 top-5 md:top-20 xl:top-12 flex flex-col items-center gap-5 z-10">
